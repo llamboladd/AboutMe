@@ -2,15 +2,16 @@ body {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows:1fr 5fr 1fr;
-    background-color: slategray;
+    background-color: slategrey;
     align-items: center;
     align-self: center;
     color: white;
     text-align: center;
 }
 .header , .content , .GitHub , .contact, .spacer{
+    background-color: darkgray;
     display: grid;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 5px;
 }
 .logo {
