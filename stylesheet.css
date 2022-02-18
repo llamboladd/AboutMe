@@ -5,7 +5,9 @@ body {
     color: white;
     text-align: center;
 }
-h1.header {
+.header {
+    height: fit-content;
+    width: fit-content;
     border: 2px solid black;
     border-radius: 5px;
 }
