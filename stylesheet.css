@@ -5,3 +5,7 @@ body {
     color: white;
     text-align: center;
 }
+#header {
+    border: 2px solid black;
+    border-radius: 5px;
+}
