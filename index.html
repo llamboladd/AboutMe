@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Andrew Scott's About Me Page</title>
+        <title>Andrew Scott - About Me</title>
         <meta charset="UTF-8">
         <meta name="description" content="Andrew Scott's About Me Page">
         <meta name="keywords" content="Andrew, Scott, About, Me, Page">
@@ -9,15 +9,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--hide page content until fully loaded-->
         <style>
-            .hidden {
-                opacity: 0;
-            }
-            .visible {
-                opacity: 1;
-                transition: opacity 2s ease-out;
-            }
+            .hidden {   opacity: 0; }
+            .visible {  opacity: 1; transition: opacity 2s ease-out;    }
         </style>
-        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="css/stylesheet.css">
+        <!--FontAwesome for icon fonts-->
+        <script src="https://kit.fontawesome.com/c784c3837a.js" crossorigin="anonymous"></script>
         <link rel="icon" type="image/x-icon" href="img/favicon.ico">
         <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
@@ -31,21 +28,97 @@
             <img class="cornerLogo" src="img/android-chrome-512x512.png">
         </div>
         <div class="header">
-            <h1>Welcome To Andrew Scott's About Me Page</h1>
+            <h1 class="headerText">Welcome To Andrew Scott's About Me Page</h1>
         </div>
         <div class="content">
-            <h2>Content</h2>
+            <h2 class="contentHeader">I Am A...</h2>
+            <div class="developer">
+                <dl>
+                    <dt><i class="fa-solid fa-keyboard"></i>&emsp;<b>Developer</b></dt>
+                    <dd><i>Experienced in many programming languages</i>
+                        <ul>
+                            <li>Assembly</li>
+                            <li>Basic</li>
+                            <li>Batch scripting</li>
+                            <li>C</li>
+                            <li>C++</li>
+                            <li>C#</li>
+                            <li>CSS</li>
+                            <li>HTML</li>
+                            <li>Java</li>
+                            <li>Javascript</li>
+                            <li>PowerShell</li>
+                            <li>Python</li>
+                            <li>VB.NET</li>
+                        </ul>
+                    </dd>
+                    <dd><i>Experienced in many IDE's/development tools</i>
+                        <ul>
+                            <li>Eclipse</li>
+                            <li>IntelliJ</li>
+                            <li>Microsoft Visual Studio</li>
+                            <li>Microsoft VS Code</li>
+                            <li>NetBeans</li>
+                            <li>Notepad++</li>
+                            <li>Version Control Systems (SVN, Git, GitHub, etc.)</li>
+                            <li>Visual Paradigm</li>
+                        </ul>
+                    </dd>
+                </dl>
+            </div>
+            <div class="designer">
+                <dl>
+                    <dt><i class="fa-solid fa-pen"></i>&emsp;<b>Designer</b></dt>
+                    <dd><i>Digital graphics</i>
+                        <ul>
+                            <li>Adobe Photoshop</li>
+                            <li>Adobe AfterEffects</li>
+                            <li>Krita</li>
+                        </ul>
+                    </dd>
+                    <dd><i>2D/3D modeling</i>
+                        <ul>
+                            <li>AutoCAD</li>
+                            <li>Blender</li>
+                            <li>FreeCAD</li>
+                            <li>Fusion360</li>
+                            <li>Inventor</li>
+                        </ul>
+                    </dd>
+                </dl>
+            </div>
+            <div class="builder">
+                <dl>
+                    <dt><i class="fa-solid fa-toolbox"></i>&emsp;<b>Builder</b></dt>
+                    <dd><i>Computer designer/builder</i>
+                        <ul>
+                            <li>I've personally designed and built computers for at least 20 clients in my spare time.</li>
+                            <li>Computer builds have been everything from low-budget builds to no-budget behemoths.</li>
+                        </ul>
+                    </dd>
+                    <dd><i>Electronics designer/builder</i>
+                        <ul>
+                            <li>Electronics design/assembly has always been a passion of mine.</li>
+                            <li>I've designed my own circuitry for basic electronics projects.</li>
+                            <li>I was responsible for the hardware aspect of my capstone class; a self-driving remote-control car.</li>
+                        </ul>
+                    </dd>
+                </dl>
+            </div>
         </div>
         <div class="footer">
-            <div class="GitHub">
-                <h3>GitHub: <a href="https://github.com/llamboladd/">llamboladd</a></h3>
+            <div class="contactLeft">
+                <h2>Check me out</h2>
+                <h4><i class="fa-brands fa-github"></i>&emsp;<a href="https://github.com/llamboladd/" target="_blank">GitHub</a></h4>
+                <h4><i class="fa-brands fa-linkedin"></i>&emsp;<a href="https://linkedin.com/in/andrew-scott-the-tech-guy/" target="_blank">LinkedIn</a></h4>
             </div>
-            <div class="contact">
-                <h3>Email: <a href="mailto: asdf@gmail.com">asdf@gmail.com</a></h3>
-                <h3>Phone: <a href="tel:5555555555">1-(555)-555-5555</a></h3>
+            <div class="contactRight">
+                <h2>Contact me</h2>
+                <h4><i class="fa-solid fa-envelope"></i>&emsp;<a href="mailto: llamboladd@gmail.com">Email me</a></h4>
+                <h4><i class="fa-solid fa-phone"></i>&emsp;<a href="tel:5555555555">Call me</a></h4>
             </div>
         </div>
         <!--execute page load fade-in-->
-        <script type="text/javascript" src="javascript.js"></script>
+        <script type="text/javascript" src="js/javascript.js"></script>
     </body>
 </html>
