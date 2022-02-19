@@ -117,3 +117,6 @@ a:hover {
 a:active {
     color: blue;
 }
+ul {
+    list-style-type:circle;
+}
